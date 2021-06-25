@@ -1,0 +1,205 @@
+.main-container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.ann{
+  background-color: #607d8b;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  color: white;
+}
+.ann span{
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  max-width: 60%;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.75rem;
+  font-weight: 500;
+  max-width: 46.15385em;
+}
+a{
+  color: inherit;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.l-r-section, .chill{
+  display: flex;
+  margin-bottom: 32px;
+}
+.chill .image{
+  width: 50%;
+  /* height: 420px; */
+  display: flex;
+  box-sizing: inherit;
+}
+.l-r-section .image{
+  width: 50%;
+  height: 420px;
+  display: flex;
+  box-sizing: inherit;
+}
+.l-r-section .text{
+  width: 50%;
+  height: 420px;
+  padding: 0px 48px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e373b;
+}
+.chill .text{
+  width: 50%;
+  /* height: 420px; */
+  padding: 0px 48px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e373b !important;
+}
+.chill .text{
+  background-color: #f2f0eb;
+  text-align: center !important;
+}
+.l-r-section .text h1, .l-r-section .text h3, .chill .text h1, .chill .text h3{
+  margin: 0;
+  font-weight: 400;
+}
+.l-r-section .text h1{
+  margin-bottom: 24px
+}
+.l-r-section .text h3{
+  font-size: 19px;
+  margin-bottom: 32px
+}
+.chill .text h1{
+  margin-bottom: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 50px;
+  letter-spacing: 8px;
+  box-sizing: inherit;
+  max-width: 46.15385em;
+}
+.chill .text h3{
+  font-size: 24px;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+.l-r-section .image img{
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+.chill .image img{
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+.cta{
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-weight: 600;
+  /* line-height: 1.2; */
+  text-align: center;
+  /* margin-right: 1.6rem; */
+  border-width: 1px;
+}
+.cta:hover{
+  cursor: pointer;
+  transition: all .2s ease;
+  padding: 7px 32px;
+  background-color: rgba(0,0,0,.06);
+}
+.card{
+  display: flex;
+}
+.t-b-section{
+  width: 50%;
+}
+.section-container{
+  display: flex;
+  flex-direction: column;
+}
+.section-container .image, .section-container .image img{
+  width: 100%;
+}
+.section-container .text{
+  /* padding: 0px 48px; */
+  /* color: #1e3932; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #607d8b;
+}
+.cta-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t-b-section:first-child .section-container{
+  margin-right: 16px;
+}
+.t-b-section .image{
+  display: flex;
+}
+.t-b-section:last-child .section-container{
+  margin-left: 16px;
+}
+.t-b-section .text h1{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.t-b-section .text{
+  padding-bottom: 32px;
+  padding-top: 16px;
+  padding-right: 24px;
+  text-align: center;
+  padding-left: 24px;
+  color: white;
+  flex-grow: 1;
+}
+.t-b-section .text h3{
+  font-size: 19px;
+  line-height: 1.75;
+}
+.t-b-section{
+  display: flex;
+}
+.card{
+  margin-bottom: 32px;
+}
+.top{
+  padding-top: 3.2rem!important;
+  padding-bottom: 3.2rem!important;
+  justify-content: center!important;
+  text-align: center!important;
+  display: flex;
+  font-weight: 600;
+}
+.bot{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 3.2rem!important;
+  padding-bottom: 3.2rem!important;
+  justify-content: center!important;
+  display: flex!important;
+  text-align: center!important;
+}
+.bot div{
+    max-width: 60%;
+    padding: 0 4.8rem;
+    box-sizing: inherit;
+    line-height: 1.8;
+    font-weight: 600;
+}
